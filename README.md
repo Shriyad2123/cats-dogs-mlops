@@ -11,6 +11,4 @@ Assignment dataset: `bhavikjikadara/dog-and-cat-classification-dataset` on Kaggl
 ## No local Docker required
 Training can be done in Google Colab. Docker is built entirely on GitHub Actions and deployed as a prebuilt GHCR image to Render.
 
-## Quick start
-See `STEP_BY_STEP.md`. Do not submit the included bootstrap model as your final trained model. Run the Colab/training step and replace it first.
 CI/CD pipeline test
