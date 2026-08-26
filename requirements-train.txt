@@ -1,0 +1,6 @@
+-r requirements.txt
+mlflow==2.19.0
+matplotlib==3.10.0
+dvc==3.59.0
+kagglehub==0.3.7
+requests==2.32.3

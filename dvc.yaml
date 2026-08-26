@@ -1,0 +1,9 @@
+stages:
+  prepare:
+    cmd: python src/prepare_data.py --source data/raw --output data/processed --max-images 4000
+    deps:
+      - src/prepare_data.py
+      - src/preprocess.py
+      - data/raw
+    outs:
+      - data/processed

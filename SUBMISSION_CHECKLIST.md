@@ -1,0 +1,24 @@
+# Submission checklist
+- [ ] GitHub repository created and final code pushed
+- [ ] Exact Kaggle cats/dogs dataset used
+- [ ] Images preprocessed to 224x224 RGB
+- [ ] 80/10/10 train/validation/test split visible
+- [ ] Data augmentation code present
+- [ ] DVC metadata committed
+- [ ] Real trained `model/model.joblib` replaces bootstrap model
+- [ ] MLflow run evidence saved
+- [ ] Confusion matrix saved
+- [ ] Loss curve saved
+- [ ] FastAPI `/health` works
+- [ ] FastAPI `/predict` returns label + probabilities
+- [ ] `requirements.txt` versions pinned
+- [ ] Dockerfile present
+- [ ] Unit tests pass in GitHub Actions
+- [ ] Docker image published to GHCR
+- [ ] Render pulls GHCR image
+- [ ] Main push triggers deployment
+- [ ] Post-deploy smoke test passes
+- [ ] `/metrics` shows request count and latency
+- [ ] Post-deployment metrics file created
+- [ ] Final ZIP prepared
+- [ ] Screen recording is under 5 minutes

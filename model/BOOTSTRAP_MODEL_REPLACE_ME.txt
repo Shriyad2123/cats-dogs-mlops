@@ -1,0 +1,1 @@
+This model is only to make the API/tests/build runnable before training. Replace model/model.joblib with the model produced from the Kaggle dataset before final submission.
