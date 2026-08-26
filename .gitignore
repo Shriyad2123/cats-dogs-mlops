@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Raw and processed datasets
+data/raw/
+data/processed/
+
+# MLflow local artifacts
+mlruns/
+
+# Environment / notebook files
+.ipynb_checkpoints/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db

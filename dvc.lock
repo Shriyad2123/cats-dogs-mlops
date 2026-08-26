@@ -1,0 +1,25 @@
+schema: '2.0'
+stages:
+  prepare:
+    cmd: python src/prepare_data.py --source data/raw --output data/processed 
+      --max-images 4000
+    deps:
+    - path: data/raw
+      hash: md5
+      md5: 8467ce11580412ec0b77ca194007550a.dir
+      size: 848866410
+      nfiles: 24998
+    - path: src/prepare_data.py
+      hash: md5
+      md5: afc17b75b1810d8eb33886d2e9f8eeba
+      size: 2342
+    - path: src/preprocess.py
+      hash: md5
+      md5: b22d2437d7e832b565edae4b31a830df
+      size: 782
+    outs:
+    - path: data/processed
+      hash: md5
+      md5: c77eb61df54383d471e8df3b8f07c749.dir
+      size: 62156454
+      nfiles: 4000
